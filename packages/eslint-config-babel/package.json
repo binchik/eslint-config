@@ -36,7 +36,7 @@
     "@anvilabs/eslint-config": "*"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "eslint-plugin-babel": "^5.3.0"
   },
   "devDependencies": {}
