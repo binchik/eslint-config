@@ -33,6 +33,8 @@ module.exports = {
         detectObjects: false,
       },
     ],
+    'no-useless-catch': 'error',
+    'prefer-named-capture-group': 'error',
     // https://github.com/mysticatea/eslint-plugin-eslint-comments
     'eslint-comments/disable-enable-pair': 'error',
     'eslint-comments/no-duplicate-disable': 'error',
@@ -76,6 +78,14 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
+    'import/no-unused-modules': [
+      'error',
+      {
+        unusedExports: true,
+        missingExports: true,
+        ignoreExports: ['packages/eslint-config/index.js'],
+      },
+    ],
     // https://github.com/dustinspecker/eslint-plugin-no-use-extend-native
     'no-use-extend-native/no-use-extend-native': 'error',
     // https://github.com/xjamundx/eslint-plugin-promise
@@ -131,5 +141,13 @@ module.exports = {
     'unicorn/prefer-type-error': 'off',
     'unicorn/regex-shorthand': 'error',
     'unicorn/throw-new-error': 'error',
+    'unicorn/no-for-loop': 'error',
+    'unicorn/no-zero-fractions': 'error',
+    'unicorn/prefer-event-key': 'error',
+    'unicorn/prefer-flat-map': 'error',
+    'unicorn/prefer-includes': 'error',
+    'unicorn/prefer-node-remove': 'error',
+    'unicorn/prefer-text-content': 'error',
+    'unicorn/prevent-abbreviations': 'off',
   },
 };

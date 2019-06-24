@@ -36,5 +36,9 @@ module.exports = {
     'jest/valid-describe': 'error',
     'jest/valid-expect-in-promise': 'error',
     'jest/valid-expect': 'error',
+    'jest/no-commented-out-tests': 'error',
+    'jest/no-empty-title': 'error',
+    'jest/no-mocks-import': 'error',
+    'jest/prefer-called-with': 'error',
   },
 };

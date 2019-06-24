@@ -126,5 +126,10 @@ module.exports = {
     'react/sort-prop-types': 'off', // we don't use prop-types
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
+    'react/jsx-curly-newline': 'off', // prettier handles this
+    'react/jsx-props-no-spreading': 'off',
+    'react/prefer-read-only-props': 'off',
+    'react/state-in-constructor': ['error', 'never'],
+    'react/static-property-placement': 'off',
   },
 };

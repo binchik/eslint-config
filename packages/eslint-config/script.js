@@ -6,6 +6,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import
     'import/no-extraneous-dependencies': 'off',
     'import/no-internal-modules': 'off',
+    'import/no-unused-modules': 'off',
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     'unicorn/no-process-exit': 'off',
   },
