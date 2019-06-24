@@ -1,6 +1,6 @@
 {
   "name": "@binchik/eslint-config",
-  "private": false,
+  "private": true,
   "repository": "binchik/eslint-config",
   "license": "MIT",
   "engines": {
