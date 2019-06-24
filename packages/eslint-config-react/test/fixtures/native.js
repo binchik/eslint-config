@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@anvilabs/eslint-config', '../../native.js'],
+  extends: ['@binchik/eslint-config', '../../native.js'],
 };

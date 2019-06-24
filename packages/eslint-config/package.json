@@ -1,5 +1,5 @@
 {
-  "name": "@anvilabs/eslint-config",
+  "name": "@binchik/eslint-config",
   "version": "0.0.0-development",
   "description": "Anvilabs' base ESLint config",
   "keywords": [
@@ -9,10 +9,10 @@
     "anvilabs",
     "styleguide"
   ],
-  "repository": "anvilabs/eslint-config",
-  "homepage": "https://github.com/anvilabs/eslint-config#readme",
+  "repository": "binchik/eslint-config",
+  "homepage": "https://github.com/binchik/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/anvilabs/eslint-config/issues"
+    "url": "https://github.com/binchik/eslint-config/issues"
   },
   "license": "MIT",
   "author": {

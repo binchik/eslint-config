@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@anvilabs/eslint-config', '../../index.js', '../../react.js'],
+  extends: ['@binchik/eslint-config', '../../index.js', '../../react.js'],
 };

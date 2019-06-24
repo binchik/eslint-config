@@ -1,4 +1,4 @@
-# @anvilabs/eslint-config-typescript
+# @binchik/eslint-config-typescript
 
 [![Version](https://img.shields.io/npm/v/@anvilabs/eslint-config-typescript.svg)](http://npm.im/@anvilabs/eslint-config-typescript)
 [![Dependency Status](https://david-dm.org/anvilabs/eslint-config/status.svg?path=packages/eslint-config-typescript)](https://david-dm.org/anvilabs/eslint-config?path=packages/eslint-config-typescript)
@@ -11,16 +11,16 @@ Anvilabs' ESLint config for our Typescript codebases.
 This config relies dangerously on npm@3/yarn flatter tree for its dependencies (because of [eslint/issues/3458](https://github.com/eslint/eslint/issues/3458)), so installation may be as simple as: 
 
 ```bash
-$ yarn add eslint prettier @anvilabs/eslint-config @anvilabs/eslint-config-typescript --dev
+$ yarn add eslint prettier @binchik/eslint-config @binchik/eslint-config-typescript --dev
 # or
-$ npm install eslint prettier @anvilabs/eslint-config @anvilabs/eslint-config-typescript --save-dev
+$ npm install eslint prettier @binchik/eslint-config @binchik/eslint-config-typescript --save-dev
 ```
 
 Then add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: ['@anvilabs/eslint-config', '@anvilabs/eslint-config-typescript' /* and maybe '@anvilabs/eslint-config-typescript/react' or '@anvilabs/eslint-config-typescript/react-native' */],
+  extends: ['@binchik/eslint-config', '@binchik/eslint-config-typescript' /* and maybe '@binchik/eslint-config-typescript/react' or '@binchik/eslint-config-typescript/react-native' */],
   rules: {
     // your overrides
   },
@@ -29,8 +29,8 @@ module.exports = {
 
 Additional configs include:
 
-- `'@anvilabs/eslint-config-typescript/react'` for usage with [React](https://reactjs.org/)
-- `'@anvilabs/eslint-config-typescript/react-native'` for usage with [React Native](https://facebook.github.io/react-native/)
+- `'@binchik/eslint-config-typescript/react'` for usage with [React](https://reactjs.org/)
+- `'@binchik/eslint-config-typescript/react-native'` for usage with [React Native](https://facebook.github.io/react-native/)
 
 ## License
 

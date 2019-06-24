@@ -1,4 +1,4 @@
-# @anvilabs/eslint-config
+# @binchik/eslint-config
 
 [![Version](https://img.shields.io/npm/v/@anvilabs/eslint-config.svg)](http://npm.im/@anvilabs/eslint-config)
 [![Dependency Status](https://david-dm.org/anvilabs/eslint-config/status.svg?path=packages/eslint-config)](https://david-dm.org/anvilabs/eslint-config?path=packages/eslint-config)
@@ -11,16 +11,16 @@ Anvilabs' base ESLint config. Intended to be used together with [prettier](https
 This config relies dangerously on npm@3/yarn flatter tree for its dependencies (because of [eslint/issues/3458](https://github.com/eslint/eslint/issues/3458)), so installation may be as simple as:
 
 ```bash
-$ yarn add eslint prettier @anvilabs/eslint-config --dev
+$ yarn add eslint prettier @binchik/eslint-config --dev
 # or
-$ npm install eslint prettier @anvilabs/eslint-config --save-dev
+$ npm install eslint prettier @binchik/eslint-config --save-dev
 ```
 
 Then add the extends to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: '@anvilabs/eslint-config',
+  extends: '@binchik/eslint-config',
   rules: {
     // your overrides
   },
@@ -35,7 +35,7 @@ You can use them standalone:
 
 ```js
 module.exports = {
-  extends: '@anvilabs/eslint-config/<config-name>',
+  extends: '@binchik/eslint-config/<config-name>',
 };
 ```
 
@@ -43,7 +43,7 @@ Or in combination with the base config (recommended):
 
 ```js
 module.exports = {
-  extends: ['@anvilabs/eslint-config', '@anvilabs/eslint-config/<config-name>'],
+  extends: ['@binchik/eslint-config', '@binchik/eslint-config/<config-name>'],
 };
 ```
 
@@ -57,7 +57,7 @@ module.exports = {
       {
         files: ['**/__tests__/*-test.js', '**/__mocks__/*.js'],
       },
-      require('@anvilabs/eslint-config/jest')
+      require('@binchik/eslint-config/jest')
     ),
   ],
 };
@@ -65,10 +65,10 @@ module.exports = {
 
 Available configs include:
 
-- `'@anvilabs/eslint-config/jest'` for [Jest](https://facebook.github.io/jest/) related rules
-- `'@anvilabs/eslint-config/lodash'` for [Lodash](https://lodash.com/) related rules
-- `'@anvilabs/eslint-config/ramda'` for [Ramda](https://ramdajs.com/) related rules
-- `'@anvilabs/eslint-config/script'` for usage with config files or scripts
+- `'@binchik/eslint-config/jest'` for [Jest](https://facebook.github.io/jest/) related rules
+- `'@binchik/eslint-config/lodash'` for [Lodash](https://lodash.com/) related rules
+- `'@binchik/eslint-config/ramda'` for [Ramda](https://ramdajs.com/) related rules
+- `'@binchik/eslint-config/script'` for usage with config files or scripts
 
 ## License
 

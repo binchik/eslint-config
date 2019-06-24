@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@anvilabs/eslint-config', '@anvilabs/eslint-config/script'],
+  extends: ['@binchik/eslint-config', '@binchik/eslint-config/script'],
   rules: {
     'import/no-unused-modules': 'off',
   },
