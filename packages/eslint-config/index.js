@@ -83,7 +83,6 @@ module.exports = {
       {
         unusedExports: true,
         missingExports: true,
-        ignoreExports: ['packages/eslint-config/index.js'],
       },
     ],
     // https://github.com/dustinspecker/eslint-plugin-no-use-extend-native
