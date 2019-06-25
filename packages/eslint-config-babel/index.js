@@ -9,7 +9,7 @@ module.exports = {
     'babel/camelcase': ['error', {properties: 'never'}],
     'babel/flow-object-type': 'off',
     'babel/func-params-comma-dangle': 'off',
-    'babel/generator-star-spacing': 'off',
+    'babel/generator-star-spacing': ['error', {before: true, after: false}],
     'babel/new-cap': 'off',
     'babel/no-await-in-loop': 'off',
     'babel/no-invalid-this': 'error',

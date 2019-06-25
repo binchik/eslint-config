@@ -24,6 +24,6 @@ module.exports = {
       },
     ],
     // https://github.com/evcohen/eslint-plugin-jsx-a11y
-    'jsx-a11y/lang': 'error',
+    'jsx-a11y/lang': 'warn',
   },
 };

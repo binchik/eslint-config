@@ -49,10 +49,7 @@ module.exports = {
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'error',
-    '@typescript-eslint/generic-type-naming': [
-      'error',
-      '^([TUKV]|T([A-Z0-9][a-zA-Z0-9]*){0,1})$',
-    ],
+    '@typescript-eslint/generic-type-naming': 'off',
     '@typescript-eslint/indent': 'off',
     '@typescript-eslint/interface-name-prefix': 'error',
     '@typescript-eslint/member-delimiter-style': 'off',
