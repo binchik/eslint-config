@@ -16,7 +16,7 @@
     "prettier-check": "eslint --print-config packages/eslint-config/index.js | eslint-config-prettier-check",
     "jest": "jest --passWithNoTests",
     "test": "run-p --silent --print-label lint find-new-rules prettier-check jest",
-    "semantic-release": "semantic-release"
+    "semantic-release": "wsrun --serial semantic-release"
   },
   "prettier": {
     "bracketSpacing": false,
