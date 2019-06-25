@@ -1,5 +1,5 @@
 {
-  "name": "@binchik/eslint-config-react",
+  "name": "@binur95/eslint-config-react",
   "version": "0.0.0-development",
   "description": "Anvilabs' ESLint config for our React/React Native apps",
   "keywords": [
@@ -9,10 +9,10 @@
     "anvilabs",
     "styleguide"
   ],
-  "repository": "binchik/eslint-config",
-  "homepage": "https://github.com/binchik/eslint-config#readme",
+  "repository": "binur95/eslint-config",
+  "homepage": "https://github.com/binur95/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/binchik/eslint-config/issues"
+    "url": "https://github.com/binur95/eslint-config/issues"
   },
   "license": "MIT",
   "author": {
@@ -34,7 +34,7 @@
     "extends": "semantic-release-monorepo"
   },
   "peerDependencies": {
-    "@binchik/eslint-config": "*"
+    "@binur95/eslint-config": "*"
   },
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.2.1",

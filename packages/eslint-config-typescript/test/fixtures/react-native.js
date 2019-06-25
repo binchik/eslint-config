@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@binchik/eslint-config',
+    '@binur95/eslint-config',
     '../../index.js',
     '../../react-native.js',
   ],

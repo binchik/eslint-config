@@ -1,5 +1,5 @@
 {
-  "name": "@binchik/eslint-config-typescript",
+  "name": "@binur95/eslint-config-typescript",
   "version": "0.0.0-development",
   "description": "Anvilabs' ESLint config for our Typescript codebases",
   "keywords": [
@@ -9,10 +9,10 @@
     "anvilabs",
     "styleguide"
   ],
-  "repository": "binchik/eslint-config",
-  "homepage": "https://github.com/binchik/eslint-config#readme",
+  "repository": "binur95/eslint-config",
+  "homepage": "https://github.com/binur95/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/binchik/eslint-config/issues"
+    "url": "https://github.com/binur95/eslint-config/issues"
   },
   "license": "MIT",
   "author": {
@@ -35,7 +35,7 @@
     "extends": "semantic-release-monorepo"
   },
   "peerDependencies": {
-    "@binchik/eslint-config": "*",
+    "@binur95/eslint-config": "*",
     "typescript": "*"
   },
   "dependencies": {
