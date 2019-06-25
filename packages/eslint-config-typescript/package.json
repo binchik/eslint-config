@@ -9,10 +9,10 @@
     "anvilabs",
     "styleguide"
   ],
-  "repository": "binur95/eslint-config",
-  "homepage": "https://github.com/binur95/eslint-config#readme",
+  "repository": "binchik/eslint-config",
+  "homepage": "https://github.com/binchik/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/binur95/eslint-config/issues"
+    "url": "https://github.com/binchik/eslint-config/issues"
   },
   "license": "MIT",
   "author": {

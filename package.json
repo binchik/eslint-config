@@ -1,7 +1,7 @@
 {
   "name": "@binur95/eslint-config",
   "private": true,
-  "repository": "binur95/eslint-config",
+  "repository": "binchik/eslint-config",
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
