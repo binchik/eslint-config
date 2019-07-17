@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['prettier/react'],
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -131,5 +131,7 @@ module.exports = {
     'react/prefer-read-only-props': 'off',
     'react/state-in-constructor': ['error', 'never'],
     'react/static-property-placement': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
   },
 };

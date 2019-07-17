@@ -40,5 +40,7 @@ module.exports = {
     'jest/no-empty-title': 'error',
     'jest/no-mocks-import': 'error',
     'jest/prefer-called-with': 'error',
+    'jest/no-duplicate-hooks': 'error',
+    'jest/no-if': 'error',
   },
 };
